@@ -1,0 +1,117 @@
+@import url(reset.html);
+
+body {
+  font-family: 'Poppins';
+  font-size: 14px;
+}
+
+.navbar {
+  margin-top: 40px;
+}
+
+.navList {
+  position: absolute;
+  width: 1376px;
+  height: 109px;
+  margin-left: 60px;
+  font-family: 'poppins';
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navList > .logo {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  margin-left: 40px;
+}
+
+.navList > .navRight {
+  float: right;
+  color: black;
+  margin-top: 10px;
+  margin-right: -50px;
+}
+
+div > img {
+  display: flex;
+  width: 1300px;
+  height: 587px;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: black;
+}
+
+.image-container {
+  position: absolute;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text1 {
+  position: relative;
+  width: 526px;
+  height: 229px;
+  top: -225px;
+  left: 950px;
+  background-color: aqua;
+  border-radius: 12px;
+}
+
+.overlay-text1 > p {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  margin-left: 20px;
+}
+
+p {
+  line-height: 0.5;
+}
+
+.lorem {
+  font-size: 12px;
+}
+
+.overlay-text1 > button {
+  font-size: 10px;
+  border-radius: 50px;
+  position: relative;
+  padding: 10px 35px;
+  top: 18%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #e4e2e2;
+  color: #282828;
+}
+
+.overlay-text2 {
+  position: relative;
+  display: flex;
+  top: 0%;
+  bottom: 500px;
+  left: -35.5%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(168, 31, 31, 0);
+  color: black;
+  padding: 10px 20px;
+  font-size: 40px;
+  font-weight: bold;
+}

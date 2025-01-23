@@ -1,0 +1,266 @@
+@import url(reset.html);
+
+body {
+  font-family: 'Poppins';
+  font-size: 14px;
+}
+
+.navbar {
+  margin-top: 40px;
+}
+
+.navList {
+  position: absolute;
+  width: 1376px;
+  height: 109px;
+  margin-left: 60px;
+  font-family: 'poppins';
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navList > .logo {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  margin-left: 40px;
+}
+
+.navList > .navRight {
+  float: right;
+  color: black;
+  margin-top: 10px;
+  margin-right: -50px;
+}
+
+div > img {
+  display: flex;
+  width: 1300px;
+  height: 587px;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: black;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text4 {
+  position: relative;
+  width: 526px;
+  height: 229px;
+  top: 100px;
+  left: 1100px;
+  background-color: aqua;
+  border-radius: 12px;
+}
+
+.overlay-text4 > p {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 18%;
+  left: 35.5%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  padding: 10px 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.overlay-text2 {
+  position: absolute;
+  top: 33%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  padding: 10px 20px;
+  font-size: 17px;
+}
+
+.overlay-text3 {
+  display: table;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+}
+
+.wearehere {
+  position: relative;
+  text-align: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  left: 120%;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.overlay-button {
+  display: flex;
+  position: absolute;
+  padding: 10px 35px;
+  font-size: 14px;
+  font-weight: 600;
+  top: 42%;
+  left: 26.5%;
+  transform: translate(-50%, -50%);
+  background-color: #35388e;
+  border-radius: 12px;
+  color: white;
+}
+
+.paragraph {
+  margin-left: 300px;
+  margin-top: 60px;
+  font-size: 24px;
+  padding: 40px 40px;
+}
+
+p {
+  margin-left: 400px;
+  margin-top: 0px;
+  font-size: 24px;
+  font-family: 'roboto slab';
+  font-size: 24;
+  font-weight: light;
+}
+
+.button2 {
+  position: absolute;
+  top: 130%;
+  left: 36.5%;
+  transform: translate(-50%, -50%);
+  font-display: rgba(255, 255, 255, 0);
+  background-color: #35388e;
+  padding: 10px 35px;
+  font-size: 14px;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+section {
+  width: 1376px;
+  height: 804px;
+  opacity: 100%;
+  background-color: #fffcfc;
+}
+
+.sectionLeft {
+  display: inline-flex;
+}
+
+.programs {
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 35px;
+  align-items: center;
+  margin-top: 60px;
+  text-decoration: none;
+
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #999797;
+}
+
+.svg {
+  margin-top: 250px;
+  margin-left: -150px;
+  float: left;
+}
+
+ellipse {
+  width: 89px;
+  height: 84px;
+  border-radius: 1px #7175fd;
+}
+
+.overlay-text4 {
+  float: left;
+  margin-top: 295px;
+  margin-right: 500px;
+  margin-left: -165px;
+  color: #7175fd;
+}
+
+.overlay-text5 {
+  float: left;
+  margin-top: 240px;
+  margin-right: 200px;
+  margin-left: -650px;
+  font-weight: 600;
+  font-size: 40px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.contact {
+  font-family: 'poppins';
+  float: left;
+  margin-top: 440px;
+  margin-right: 200px;
+  margin-left: -470px;
+  font-weight: 600;
+  font-size: 35px;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-style: none;
+  align-items: center;
+}
+
+.sectionRight {
+  display: absolute;
+  top: 650%;
+  margin-right: -60px;
+}
+
+.education {
+  font-family: 'poppins';
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 350px;
+}
+
+.paragraph2 {
+  float: left;
+  width: 611px;
+  height: 84px;
+  font-weight: 300;
+  font-size: 14px;
+}
