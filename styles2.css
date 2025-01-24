@@ -1,7 +1,7 @@
 @import url(reset.html);
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 14px;
 }
 
@@ -14,7 +14,7 @@ body {
   width: 1376px;
   height: 109px;
   margin-left: 60px;
-  font-family: 'poppins';
+  font-family: "poppins";
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
@@ -132,7 +132,7 @@ p {
 }
 
 .overlay-text4 {
-  font-family: 'poppins';
+  font-family: "poppins";
   align-items: center;
   height: 100px;
   background-color: rgba(255, 255, 255, 0);
@@ -205,10 +205,9 @@ p {
 }
 
 p {
-  margin-left: 400px;
   margin-top: 0px;
   font-size: 24px;
-  font-family: 'roboto slab';
+  font-family: "roboto slab";
   font-size: 24;
   font-weight: light;
 }
@@ -246,9 +245,9 @@ p {
 }
 
 .programs {
-  position: relative;
+  margin-left: 44px;
   display: flex;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-weight: 600;
   font-size: 35px;
   margin-top: 60px;
@@ -292,7 +291,7 @@ ellipse {
 }
 
 .contact {
-  font-family: 'poppins';
+  font-family: "poppins";
   float: left;
   position: relative;
   margin-top: 250px;
@@ -307,7 +306,7 @@ ellipse {
 }
 
 .directory {
-  font-family: 'poppins';
+  font-family: "poppins";
   float: left;
   position: relative;
   margin-top: 450px;
@@ -330,7 +329,7 @@ ellipse {
 
 .education {
   position: relative;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-weight: 300;
   font-size: 24px;
   text-align: left;
