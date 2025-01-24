@@ -264,3 +264,13 @@ ellipse {
   font-weight: 300;
   font-size: 14px;
 }
+
+.images12 {
+  background-color: blueviolet;
+}
+
+.section2 {
+  width: 1376px;
+  height: 804px;
+  background-color: chartreuse;
+}
