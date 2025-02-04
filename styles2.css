@@ -6,13 +6,13 @@ body {
 }
 
 .navbar {
-  margin-top: 40px;
+  margin-top: 30px;
+  width: 1376px;
+  height: 109px;
 }
 
 .navList {
   position: absolute;
-  width: 1376px;
-  height: 109px;
   margin-left: 60px;
   font-family: 'poppins';
   text-decoration: none;
@@ -36,26 +36,32 @@ a {
 .navList > .navRight {
   float: right;
   color: black;
-  margin-top: 10px;
-  margin-right: -50px;
+  margin-top: 12px;
+  margin-left: 300px;
 }
 
-div > img {
-  display: flex;
-  width: 1300px;
-  height: 587px;
+.navdot {
+  width: 1px;
+  height: 1px;
+  margin-bottom: 1px;
+  position: absolute;
+  left: 170px;
+  top: 59px;
 }
 
 .container {
   position: absolute;
   text-align: center;
   color: black;
+  width: 100%;
 }
 
 .image-container {
-  position: absolute;
-  display: inline-block;
-  margin-top: 40px;
+  position: relative;
+  display: flex;
+  width: 1300px;
+  height: 587px;
+  margin-top: -70px;
 }
 
 .image-container img {
@@ -64,12 +70,23 @@ div > img {
   height: auto;
 }
 
+.overlay-equal {
+  width: 29.76px;
+  height: 23px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 303px;
+  left: 159px;
+  font-size: 30px;
+}
+
 .overlay-text1 {
-  position: relative;
+  position: absolute;
   width: 526px;
   height: 229px;
-  top: -205px;
-  left: 950px;
+  top: 406px;
+  left: 723px;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0px 10px 5px #e6e3e3;
@@ -80,6 +97,7 @@ div > img {
   font-weight: 600;
   color: black;
   text-align: left;
+  margin-top: 19px;
   margin-left: 20px;
 }
 
@@ -89,6 +107,56 @@ p {
 
 .lorem {
   font-size: 12px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+hr {
+  background-color: white;
+  display: flex;
+  height: 204px;
+  border: 0;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  left: 537px;
+  width: 2px;
+  top: -39px;
+}
+
+div > .vl {
+  background-color: white;
+  display: flex;
+  height: 162px;
+  width: 2.48px;
+  border: 0;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  writing-mode: vertical-rl;
+  transform: rotate(90deg);
+  top: -119px;
+  left: 455px;
+}
+
+.fab {
+  position: absolute;
+  left: 538px;
+  top: 88px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 1.5em;
+}
+
+.fa {
+  position: absolute;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 1.5em;
+  left: 500px;
+  top: 130px;
+  width: 80px;
+  height: 80px;
 }
 
 .overlay-text1 > button {
@@ -97,20 +165,44 @@ p {
   position: relative;
   padding: 10px 35px;
   top: 18%;
-  left: 30%;
+  left: 20%;
   transform: translate(-50%, -50%);
   background-color: #e4e2e2;
   color: #282828;
+  height: 40px;
+}
+
+.button1 {
+  border: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.button2 {
+  border: none;
+}
+
+.overlay-magImg {
+  position: relative;
+  color: white;
+  background-color: #cfcfcf;
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: -10px;
+  margin-right: 50px;
+  margin-left: 120px;
+  border-radius: 50px;
 }
 
 .overlay-text2 {
-  position: relative;
+  position: absolute;
   display: flex;
   width: 575px;
   height: 70;
-  top: -120%;
-  bottom: 740px;
-  left: 39.5%;
+  top: 38%;
+  bottom: 0px;
+  left: 40%;
   transform: translate(-50%, -50%);
   background-color: rgba(168, 31, 31, 0);
   color: black;
@@ -121,10 +213,11 @@ p {
 
 .overlay-text3 > ul {
   position: absolute;
+  text-align: left;
   font-size: 17px;
   bottom: 60%;
-  top: 28%;
-  left: 35%;
+  top: 44.5%;
+  left: 34.5%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0);
   color: black;
@@ -138,8 +231,8 @@ p {
   background-color: rgba(255, 255, 255, 0);
   color: black;
   position: absolute;
-  top: 50%;
-  left: 10%;
+  top: 23%;
+  left: 8%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
   font-weight: 500;
@@ -147,22 +240,34 @@ p {
   letter-spacing: 0.05px;
 }
 
+.horizontal-line {
+  background-color: black;
+  position: absolute;
+  writing-mode: vertical-rl;
+  transform: rotate(270deg);
+  left: 1404px;
+  top: 546px;
+  width: 1px;
+  height: 157px;
+}
+
 .wearehere {
   position: relative;
   text-align: center;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  left: 120%;
+  left: 300%;
+  top: 375px;
 }
 
 .overlay-button {
   display: flex;
   position: absolute;
-  padding: 14px 45px;
+  padding: 12px 45px;
   font-size: 14px;
   font-weight: 600;
-  top: 35%;
-  left: 26.5%;
+  top: 62%;
+  left: 27.5%;
   transform: translate(-50%, -50%);
   background-color: #35388e;
   border-radius: 12px;
@@ -170,53 +275,37 @@ p {
   border-style: none;
 }
 
-.button1 {
-  border: none;
-  border-radius: 50px;
-  border-top-right-radius: -20%;
-  border-bottom-right-radius: 0%;
-}
-
-.button2 {
-  border: none;
-  border-radius: 100px;
-  border-top-left-radius: 0%;
-  border-bottom-left-radius: 0%;
-}
-
-.overlay-magImg {
-  position: relative;
-  width: 35px;
-  height: 35px;
-  float: right;
-  margin-top: 25px;
-  margin-right: 40px;
+.container2 {
+  position: absolute;
+  text-align: center;
+  color: black;
+  width: 100%;
+  top: 709px;
+  left: 34px;
 }
 
 .paragraph {
   text-align: center;
-  top: -30%;
-  bottom: 50%;
-  left: 70%;
-  margin-top: -200px;
+  top: 0%;
+  bottom: 0%;
+  left: 34px;
   font-size: 24px;
-  padding: 40px 40px;
+  /* padding: 40px 40px; */
   font-weight: 900;
 }
 
-p {
-  margin-left: 400px;
-  margin-top: 0px;
+.lorem2 {
   font-size: 24px;
   font-family: 'roboto slab';
   font-size: 24;
   font-weight: light;
+  margin-top: 60px;
 }
 
 .button3 {
-  position: absolute;
-  top: 110%;
-  left: 65%;
+  position: relative;
+  top: 140%;
+  left: 6%;
   transform: translate(-50%, -50%);
   font-display: rgba(255, 255, 255, 0);
   background-color: #35388e;
@@ -227,27 +316,20 @@ p {
   border-radius: 12px;
   color: white;
   font-weight: 600;
+  margin-top: 100px;
 }
 
-.container {
+.container3 {
   position: absolute;
-  display: flex;
-  text-align: left;
-  width: 1350px;
-  height: 804px;
-  top: 120%;
-  left: 15%;
-  background-color: coral;
-}
-
-.sectionLeft {
-  background-color: aqua;
-  right: -70%;
+  text-align: center;
+  background-color: none;
+  color: black;
+  width: 100%;
+  top: 1106px;
+  left: 150px;
 }
 
 .programs {
-  position: relative;
-  display: flex;
   font-family: 'poppins';
   font-weight: 600;
   font-size: 35px;
@@ -256,14 +338,16 @@ p {
   left: -350px;
   text-decoration: none;
   text-align: left;
+  background-color: none;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #999797;
 }
 
 .svg {
+  position: relative;
   margin-top: 76px;
-  margin-left: 85px;
+  margin-left: 40px;
   float: left;
 }
 
@@ -273,17 +357,48 @@ ellipse {
   border-radius: 1px #7175fd;
 }
 
-.overlay-text5 {
+.dot {
+  width: 2px;
+  height: 2px;
+  margin-bottom: 1px;
+  position: absolute;
+  top: 267px;
+  left: 124px;
+}
+
+.equal {
+  width: 29.76px;
+  height: 23px;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 413px;
+  left: -52px;
+  font-size: 30px;
+}
+
+.overlay-text5_1 {
+  display: inline-block;
+  width: 44px;
+  height: 18px;
+  position: absolute;
+  left: 60px;
+  top: 242px;
+  color: #000aff;
+}
+
+.mentorCenter {
   float: left;
-  margin-top: 125px;
-  margin-left: -180px;
-  color: #7175fd;
+  margin-top: 53px;
+}
+
+.sectionLeft {
+  right: -270%;
 }
 
 .overlay-text6 {
+  position: absolute;
   float: left;
-  margin-top: 75px;
-  margin-left: -240px;
   font-weight: 600;
   font-size: 40px;
   color: black;
@@ -291,12 +406,12 @@ ellipse {
   -webkit-text-stroke-color: black;
 }
 
-.contact {
+.contactUs {
   font-family: 'poppins';
   float: left;
   position: relative;
-  margin-top: 250px;
-  margin-left: -280px;
+  margin-top: 226px;
+  margin-left: -290px;
   font-weight: 600;
   font-size: 35px;
   color: transparent;
@@ -310,8 +425,8 @@ ellipse {
   font-family: 'poppins';
   float: left;
   position: relative;
-  margin-top: 450px;
-  margin-left: -280px;
+  margin-top: 400px;
+  margin-left: -290px;
   font-weight: 600;
   font-size: 35px;
   color: transparent;
@@ -322,56 +437,307 @@ ellipse {
 }
 
 .sectionRight {
-  display: relative;
-  margin-top: 200px;
-  right: 200px;
-  left: -200px;
+  position: relative;
+  text-align: left;
+  top: 106px;
+  left: 41px;
 }
 
-.education {
-  position: relative;
+.long {
+  width: 1px;
+  height: 608px;
+  background-color: #c4c4c4;
+  writing-mode: vertical-rl;
+  transform: rotate(270deg);
+  top: -321px;
+  left: 693px;
+}
+
+.short {
+  width: 1px;
+  height: 144px;
+  background-color: #000000;
+  writing-mode: vertical-rl;
+  transform: rotate(270deg);
+  top: -90px;
+  left: 832px;
+}
+
+.Education {
   font-family: 'poppins';
-  font-weight: 300;
+  font-weight: bold;
   font-size: 24px;
-  text-align: left;
-  margin-top: 350px;
-  right: 200%;
-  left: -200%;
   float: left;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 .paragraph2 {
+  position: absolute;
+  text-align: left;
   float: left;
   width: 611px;
   height: 84px;
-  font-weight: 300;
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  left: 389px;
+  top: 33px;
 }
 
 .images1 {
   position: relative;
   display: flex;
   float: left;
-  left: 200px;
-  top: 100px;
-  width: 200px;
-  height: 150px;
-  margin-right: 20px;
-  margin-top: 50px;
+  left: -260px;
+  top: 350px;
+  width: 374px;
+  height: 211px;
 }
 
 .images2 {
   position: relative;
   display: flex;
-  left: 200px;
-  top: 100px;
-  width: 150px;
-  height: 200px;
-  margin-left: 80px;
+  left: -250px;
+  top: 300px;
+  width: 215px;
+  height: 262px;
 }
+
+.overlayFont {
+  position: relative;
+  color: grey;
+  top: 146px;
+  left: -35px;
+}
+
+.overlayFont2 {
+  position: relative;
+  color: grey;
+  top: 168px;
+  left: -125px;
+}
+
+.container4 {
+  position: absolute;
+  text-align: center;
+  background-color: none;
+  width: 1376px;
+  height: 804px;
+  color: black;
+  width: 100%;
+  top: 1800px;
+  left: -416px;
+}
+
+.sixtyfour {
+  position: relative;
+  width: 133px;
+  height: 85px;
+  font-family: 'poppins';
+  font-size: 40px;
+  color: #585fa6;
+  font-weight: 900;
+  top: 442px;
+  margin-top: 0px;
+  left: 588px;
+}
+
+.divi {
+  position: absolute;
+  width: 133px;
+  height: 85px;
+  font-family: 'poppins';
+  font-size: 12;
+  font-weight: 600;
+  top: 771px;
+  margin-top: 0px;
+  left: 594px;
+}
+
+.GroupImg {
+  position: relative;
+  left: 1027px;
+  top: 564px;
+  width: 262.89px;
+  height: 218px;
+}
+
+.overlayImage {
+  height: 318px;
+  width: 272px;
+  position: absolute;
+  left: 947px;
+  top: 497px;
+}
+
+.twentyTwo {
+  position: relative;
+  width: 77px;
+  height: 24px;
+  font-family: 'poppins';
+  font-size: 40px;
+  color: #585fa6;
+  font-weight: 900;
+  left: 1456px;
+  bottom: -331px;
+}
+
+.sponsors {
+  position: relative;
+  width: 77px;
+  height: 24px;
+  font-family: 'poppins';
+  font-size: 12;
+  font-weight: 600;
+  bottom: -348px;
+  left: 1457px;
+  top: 358;
+}
+
+.wearehere2 {
+  position: relative;
+  text-align: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  left: -1221px;
+  top: 2928px;
+}
+
+.GroupImg2 {
+  height: 318px;
+  width: 272px;
+  position: absolute;
+  top: 2801px;
+  left: 191px;
+}
+
+.GroupImg3 {
+  height: 318px;
+  width: 272px;
+  position: absolute;
+  top: 2801px;
+  left: 991px;
+}
+
+.fists {
+  bottom: 78px;
+  position: absolute;
+  left: -20px;
+}
+
+.boy {
+  position: absolute;
+  bottom: 77px;
+  left: -23px;
+}
+
+.four {
+  position: relative;
+  width: 82px;
+  height: 85px;
+  font-family: 'poppins';
+  font-size: 40px;
+  color: #585fa6;
+  font-weight: 900;
+  bottom: -348px;
+  left: -638px;
+  top: 2791px;
+}
+
+.attend {
+  position: relative;
+  width: 82px;
+  height: 85px;
+  font-family: 'poppins';
+  font-size: 12;
+  font-weight: 600;
+  bottom: -348px;
+  left: -709px;
+  top: 2868px;
+}
+
+.last {
+  position: absolute;
+  width: 1376px;
+  height: 574px;
+  top: 3300px;
+}
+
+.overlay-text5 {
+  position: absolute;
+  width: 640px;
+  height: 239px;
+  top: 3645px;
+  left: 173px;
+}
+
+.wehere {
+  width: 85px;
+  height: 21px;
+  color: black;
+  float: right;
+  margin-top: -35px;
+  margin-right: 51px;
+}
+
+.company {
+  width: 282px;
+  height: 21px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.state {
+  width: 282px;
+  height: 21px;
+  color: black;
+  text-align: left;
+}
+
+.phone {
+  width: 282px;
+  height: 21px;
+  color: black;
+  text-align: left;
+}
+
+.email {
+  width: 282px;
+  height: 21px;
+  color: black;
+  text-align: left;
+}
+
+.ipsum {
+  width: 282px;
+  height: 21px;
+  color: black;
+  text-align: left;
+}
+
+/* section > div > .overlay-fists {
+  margin-top: 100px;
+  margin-left: 300px;
+  width: 276px;
+  height: 325px;
+} */
+
+/* .container {
+  position: absolute;
+  display: flex;
+  text-align: left;
+  width: 1350px;
+  height: 804px;
+  top: 120%;
+  left: 15%;
+  background-color: coral;
+}
+
+
 
 .section2 {
   width: 1376px;
   height: 804px;
   background-color: chartreuse;
-}
+} */
