@@ -294,7 +294,8 @@ div > .vl {
   font-weight: 900;
 }
 
-.lorem2 {
+p {
+  margin-left: 400px;
   font-size: 24px;
   font-family: 'roboto slab';
   font-size: 24;
@@ -406,7 +407,7 @@ ellipse {
   -webkit-text-stroke-color: black;
 }
 
-.contactUs {
+.contact {
   font-family: 'poppins';
   float: left;
   position: relative;
@@ -438,34 +439,8 @@ ellipse {
 
 .sectionRight {
   position: relative;
-  text-align: left;
-  top: 106px;
-  left: 41px;
-}
-
-.long {
-  width: 1px;
-  height: 608px;
-  background-color: #c4c4c4;
-  writing-mode: vertical-rl;
-  transform: rotate(270deg);
-  top: -321px;
-  left: 693px;
-}
-
-.short {
-  width: 1px;
-  height: 144px;
-  background-color: #000000;
-  writing-mode: vertical-rl;
-  transform: rotate(270deg);
-  top: -90px;
-  left: 832px;
-}
-
-.Education {
   font-family: 'poppins';
-  font-weight: bold;
+  font-weight: 300;
   font-size: 24px;
   float: left;
   margin-top: 20px;
@@ -715,29 +690,3 @@ ellipse {
   color: black;
   text-align: left;
 }
-
-/* section > div > .overlay-fists {
-  margin-top: 100px;
-  margin-left: 300px;
-  width: 276px;
-  height: 325px;
-} */
-
-/* .container {
-  position: absolute;
-  display: flex;
-  text-align: left;
-  width: 1350px;
-  height: 804px;
-  top: 120%;
-  left: 15%;
-  background-color: coral;
-}
-
-
-
-.section2 {
-  width: 1376px;
-  height: 804px;
-  background-color: chartreuse;
-} */
