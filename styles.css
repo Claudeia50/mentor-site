@@ -290,25 +290,28 @@ div > .vl {
   bottom: 0%;
   left: 34px;
   font-size: 24px;
-  /* padding: 40px 40px; */
   font-weight: 900;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 622px;
 }
 
-p {
-  margin-left: 400px;
+.lorem2 {
   font-size: 24px;
   font-family: 'roboto slab';
   font-size: 24;
   font-weight: light;
-  margin-top: 60px;
+  position: absolute;
+  top: 122px;
+  left: 277px;
 }
 
 .button3 {
-  position: relative;
-  top: 140%;
-  left: 6%;
+  position: absolute;
+  top: 299px;
+  left: 640px;
   transform: translate(-50%, -50%);
-  font-display: rgba(255, 255, 255, 0);
   background-color: #35388e;
   padding: 14px 55px;
   font-size: 14px;
@@ -317,32 +320,33 @@ p {
   border-radius: 12px;
   color: white;
   font-weight: 600;
-  margin-top: 100px;
 }
 
 .container3 {
   position: absolute;
   text-align: center;
-  background-color: none;
   color: black;
-  width: 100%;
+  width: 1376px;
   top: 1106px;
   left: 150px;
+  height: 804px;
 }
 
 .programs {
   font-family: 'poppins';
   font-weight: 600;
-  font-size: 35px;
+  font-size: 44px;
   margin-top: 60px;
   margin-right: -83px;
   left: -350px;
   text-decoration: none;
   text-align: left;
-  background-color: none;
+  background-color: white;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #999797;
+  width: 190px;
+  height: 54px;
 }
 
 .svg {
@@ -363,8 +367,8 @@ ellipse {
   height: 2px;
   margin-bottom: 1px;
   position: absolute;
-  top: 267px;
-  left: 124px;
+  top: 304px;
+  left: 137px;
 }
 
 .equal {
@@ -373,8 +377,8 @@ ellipse {
   color: #000000;
   font-weight: bold;
   position: absolute;
-  top: 413px;
-  left: -52px;
+  top: 509px;
+  left: -105px;
   font-size: 30px;
 }
 
@@ -384,13 +388,17 @@ ellipse {
   height: 18px;
   position: absolute;
   left: 60px;
-  top: 242px;
+  top: 288px;
   color: #000aff;
 }
 
 .mentorCenter {
   float: left;
-  margin-top: 53px;
+  margin-top: 0;
+  position: absolute;
+  top: 91px;
+  left: -86px;
+  width: 449px;
 }
 
 .sectionLeft {
@@ -410,41 +418,87 @@ ellipse {
 .contact {
   font-family: 'poppins';
   float: left;
-  position: relative;
-  margin-top: 226px;
-  margin-left: -290px;
+  position: absolute;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 44px;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #999797;
   font-style: none;
   align-items: center;
+  width: 280px;
+  height: 41px;
+  top: 209px;
+  left: -44px;
 }
 
 .directory {
   font-family: 'poppins';
   float: left;
-  position: relative;
-  margin-top: 400px;
-  margin-left: -290px;
+  position: absolute;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 44px;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #999797;
   font-style: none;
   align-items: center;
+  width: 254px;
+  height: 54px;
+  top: 451px;
+  left: -47px;
 }
 
 .sectionRight {
-  position: relative;
+  position: absolute;
   font-family: 'poppins';
   font-weight: 300;
   font-size: 24px;
   float: left;
-  margin-top: 20px;
-  margin-left: 50px;
+  width: 675px;
+  height: 402px;
+  left: 372px;
+  top: 245px;
+}
+
+.long {
+  display: flex;
+  height: 608px;
+  border: 0;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  left: 537px;
+  width: 2px;
+  top: -330px;
+  writing-mode: vertical-rl;
+  transform: rotate(90deg);
+  background-color: #c4c4c4;
+}
+
+.short {
+  display: flex;
+  height: 144px;
+  border: 0;
+  margin: 1em 0;
+  padding: 0;
+  position: absolute;
+  left: 663px;
+  width: 2px;
+  top: -97px;
+  writing-mode: vertical-rl;
+  transform: rotate(90deg);
+  background-color: #000000;
+}
+
+.Education {
+  position: absolute;
+  left: 226px;
+  top: 10px;
+  width: 283px;
+  font-size: 24px;
+  height: 47px;
+  font-weight: 400;
 }
 
 .paragraph2 {
@@ -455,15 +509,15 @@ ellipse {
   height: 84px;
   font-size: 18px;
   line-height: 1.5;
-  left: 389px;
-  top: 33px;
+  left: 233px;
+  top: 49px;
 }
 
 .images1 {
   position: relative;
   display: flex;
   float: left;
-  left: -260px;
+  left: 224px;
   top: 350px;
   width: 374px;
   height: 211px;
@@ -472,24 +526,28 @@ ellipse {
 .images2 {
   position: relative;
   display: flex;
-  left: -250px;
+  left: 250px;
   top: 300px;
   width: 215px;
   height: 262px;
 }
 
 .overlayFont {
-  position: relative;
+  position: absolute;
   color: grey;
-  top: 146px;
-  left: -35px;
+  top: 556px;
+  left: 669px;
+  width: 53px;
+  height: 58px;
 }
 
 .overlayFont2 {
-  position: relative;
+  position: absolute;
   color: grey;
-  top: 168px;
-  left: -125px;
+  top: 556px;
+  left: 608px;
+  width: 53px;
+  height: 58px;
 }
 
 .container4 {
